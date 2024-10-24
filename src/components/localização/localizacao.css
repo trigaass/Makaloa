@@ -1,0 +1,67 @@
+.loc {
+    background-color: #D7B377;
+    position: relative;
+    height: 750px;
+    z-index: 1;
+}
+
+.txtloc {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 700px;
+}
+
+.txtloc h1 {
+    position: absolute;
+    top: 220px;
+    font-size: 40px;
+}
+
+.txtloc h2 {
+    position: absolute;
+    top: 280px;
+    font-size: 30px;
+}
+
+.locimg {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    z-index: 2;
+}
+
+.locimg {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    z-index: 2;
+}
+
+.locimg img {
+    width: 800px;
+    height: 500px;
+}
+
+.locenfeite{
+    position: absolute;
+    background-color: #2A4451;
+    width: 500px;
+    height: 600px;
+    top: 70px;
+}
+
+.enfeitesloc .coqueiro{
+    position: absolute;
+    width: 500px;
+    top: -140px;
+    left: -56px;
+    transform: rotate(-50deg);
+}
+
+.enfeitesloc .barco{
+    position: absolute;
+    width: 300px;
+    right: 0;
+    top: 450px;
+}

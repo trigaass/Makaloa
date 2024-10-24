@@ -1,0 +1,26 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+  }
+  .carousel-button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .carousel-button:first-of-type {
+    left: 10px;
+  }
+  
+  .carousel-button:last-of-type {
+    right: 10px;
+  }

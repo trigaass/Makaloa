@@ -1,0 +1,68 @@
+.empreendimeto {
+    background-color: #D7B377;
+    position: relative;
+    height: 750px;
+    z-index: 1;
+}
+
+.empreendimentoimgs {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    z-index: 2;
+}
+
+.enfeiteftemp{
+    position: absolute;
+    background-color: #2A4451;
+    width: 500px;
+    height: 600px;
+    top: 70px;
+}
+
+.empreendimentoimgs img {
+    width: 800px;
+    height: 500px;
+}
+
+.txtemp {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 700px;
+}
+
+.txtemp h1 {
+    position: absolute;
+    top: 220px;
+    font-size: 40px;
+}
+
+.txtemp h2 {
+    position: absolute;
+    top: 280px;
+    font-size: 30px;
+}
+
+.formas .estrela{
+    position: absolute;
+    left: -20px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-25deg);
+}
+
+.formas .onda{
+    position: absolute;
+    top: 520px;
+    width: 725px;
+    height: 100px;
+}
+
+.formas .palha{
+    position: absolute;
+    width: 600px;
+    top: 350px;
+    right: -40px;
+    transform: rotate(-20deg);
+}
