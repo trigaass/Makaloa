@@ -9,7 +9,7 @@ export const Empreendimento = () => {
     ]
 
     return (
-        <div className="empreendimeto">
+        <div id="empreendimento" className="empreendimeto">
             <div className="enfeiteftemp" />
             <div className="empreendimentoimgs">
                 <Carrosel

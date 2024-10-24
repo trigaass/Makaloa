@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom"
 import "./style.css"
-import { Empreendimento } from "../empreendimentos"
 
 export const Headder = () => {
     return (
@@ -9,9 +7,9 @@ export const Headder = () => {
                 <img src="LOGO-MAKALOAflex.png" />
             </div>
             <div className="hlinks">
-                <a>Empreendimento</a>
-                <a>Apartamentos</a>
-                <a>Localização</a>
+                <a href="#empreendimento">Empreendimento</a>
+                <a href="#apartamentos">Apartamentos</a>
+                <a href="#localizacao">Localização</a>
                 <a>Contato</a>
             </div>
         </div>

@@ -9,7 +9,7 @@ export const Apartamentos = () => {
     ]
 
     return (
-        <div className="apto">
+        <div id="apartamentos" className="apto">
             <div className="enfeiteftaapt" />
             <div className="txtapto">
                 <h1>A AREIA SOB SEUS PES.</h1>
